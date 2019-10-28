@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-// import image from "./images/japanolympicslogo.png";
+import image from "../src/images/japanolympicslogo.png";
 import "./App.css";
 import { withAuthenticator } from "aws-amplify-react";
 import Amplify, { Auth } from "aws-amplify";
@@ -14,7 +14,7 @@ class App extends Component {
         <header className="App-header">
           <h1>Japan Olympics 2020</h1>
           <img src={logo} className="App-logo" alt="logo" />
-          {/* <img src={image} className="App-logo" alt="logo" /> */}
+          <img src={image} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
