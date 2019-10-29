@@ -14,10 +14,17 @@ class App extends Component {
         <header className="App-header">
           <h1>Japan Olympics 2020</h1>
           <img src={image} alt="logo" />
-          <source
+          <video width="320" height="240" controls>
+            <source
+              src="https://s3.amazonaws.com/assignment2.video-on-demand/UniSA.mp4"
+              type="video/mp4"
+            ></source>
+            Your browser does not support the video tag.
+          </video>
+          {/* <source
             src="https://s3.amazonaws.com/assignment2.video-on-demand/UniSA.mp4"
             type="video/mp4"
-          ></source>
+          ></source> */}
         </header>
       </div>
     );
