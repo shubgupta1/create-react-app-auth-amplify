@@ -58,6 +58,9 @@
               </ul>
             </p>
           </div>
+          <div>
+            <img src="https://github.com/shubgupta1/create-react-app-auth-amplify/blob/master/src/images/Science%20Help%20App.mp4" width="800"/>
+          </div>
 
 ## Deploy with the AWS Amplify Console
 
